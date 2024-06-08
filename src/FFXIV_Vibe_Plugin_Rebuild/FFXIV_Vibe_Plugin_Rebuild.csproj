@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="Dalamud.Plugin.Bootstrap.targets" />
+    
+  <PropertyGroup>
+      <Version>2.4.0.2</Version>
+      <Description>A sample plugin to vibe with your friends</Description>
+      <PackageProjectUrl>https://github.com/goatcorp/SamplePlugin</PackageProjectUrl>
+      <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+      <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <Reference Include="Newtonsoft.Json">
+            <HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+        </Reference>
+    	<Reference Include="Buttplug">
+        	<HintPath>Lib\Buttplug.dll</HintPath>
+    	</Reference>
+    	<Reference Include="DebounceThrottle">
+        	<HintPath>Lib\DebounceThrottle.dll</HintPath>
+    	</Reference>
+    	<Reference Include="Newtonsoft.Json">
+        	<HintPath>Lib\Newtonsoft.Json.dll</HintPath>
+    	</Reference>
+    	<Reference Include="Buttplug.Client.Connectors.WebsocketConnector">
+        	<HintPath>Lib\Buttplug.Client.Connectors.WebsocketConnector.dll</HintPath>
+    	</Reference>
+
+        <Content Include="..\Data\icon.png">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Visible>false</Visible>
+        </Content>
+
+        <Content Include="..\Data\goat.png">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Visible>false</Visible>
+        </Content>
+
+        <Content Include="FFXIV_Vibe_Plugin_Rebuild.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+            <Visible>false</Visible>
+        </Content>
+        
+    </ItemGroup>
+</Project>
