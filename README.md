@@ -1,4 +1,4 @@
-# FFXIV Vibe Plugin
+# FFXIV Vibe Plugin Rebuilt
 
 <img src="https://img.shields.io/discord/914941648859963503"/> <img src="https://img.shields.io/github/last-commit/kaciexx/FFXIV_Vibe_Plugin" />
 <a href="https://patreon.com/kaciexx"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dkaciexx%26type%3Dpatrons&style=flat" alt="Support me on Patreon" /></a>
@@ -33,10 +33,6 @@ A plugin for FFXIV that will let you vibe your controller or toys.
 - HP Changed can have custom min/max values or percentages.
 - Priority system (lower priority number will be stopped).
 - Triggers can be activated only if in or out of combat.
-
-\* Limited to 10 free triggers in the free version.
-
-## Premium features
 - The number of triggers are unlimited.
 - Create multiple profiles.
 - Export/Import triggers.
