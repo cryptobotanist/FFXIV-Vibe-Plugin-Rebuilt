@@ -9,6 +9,10 @@
 
 A plugin for FFXIV that will let you vibe your controller or toys.
 
+## In memoriam
+Rest in peace, kaciexx. Thanks for the vibes.
+This free and open source version of the plugin is an effor to keep kaciexx's legacy alive.
+
 ## Features
 - Easy UI interface.
 - Connect your device (manually or automatically).
